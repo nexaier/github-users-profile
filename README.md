@@ -13,7 +13,7 @@ A responsive and interactive web app built with **HTML**, **CSS**, and **JavaScr
 
 ## Preview
 
-![Preview Screenshot](https://user-images.githubusercontent.com/https://raw.githubusercontent.com/nexaier/github-users-profile/refs/heads/main/Screenshot.png)
+![Preview Screenshot](https://raw.githubusercontent.com/nexaier/github-users-profile/refs/heads/main/Screenshot.png)
 
 ## Technologies Used
 
