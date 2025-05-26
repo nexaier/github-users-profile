@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GitHub User's Profiles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexaier Group Chat</title>
   <link rel="stylesheet" href="style.css">
-
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<form class="user-form" id="form">
-  <input type="text" id="search" placeholder="Search a Github user">
-</form>
+  <div class="chat-container">
+    <div class="chat-header">
+      <h1>Nexaier Chat</h1>
+      <div id="user-count">0 users online</div>
+    </div>
+    
+    <div id="auth-container">
+      <div id="sign-in-form">
+        <input type="text" id="username-input" placeholder="Choose a username">
+        <button id="sign-in-btn">Join Chat</button>
+      </div>
+    </div>
+    
+    <div class="chat-area">
+      <div id="messages"></div>
+      <div id="typing-indicator"></div>
+      <div class="message-input">
+        <input type="text" id="message-input" placeholder="Type your message..." disabled>
+        <button id="send-btn" disabled>Send</button>
+      </div>
+    </div>
+  </div>
 
-<main id="main">
-
-</main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js" integrity="sha512-WrdC3CE9vf1nBf58JHepuWT4x24uTacky9fuzw2g/3L9JkihgwZ6Cfv+JGTtNyosOhEmttMtEZ6H3qJWfI7gIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- partial -->
-  <script type="text/javascript" src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
