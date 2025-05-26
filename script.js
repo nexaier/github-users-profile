@@ -1,7 +1,7 @@
 // Replace with your Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyCwJSfAGzFc28lUpLhQCG25ybwEwyMyBP0",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  authDomain: "chat-dc33d.firebaseapp.com",
   projectId: "YOUR_PROJECT_ID",
   storageBucket: "YOUR_PROJECT_ID.appspot.com",
   messagingSenderId: "YOUR_SENDER_ID",
