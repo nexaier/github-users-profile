@@ -4,7 +4,7 @@ const firebaseConfig = {
   authDomain: "chat-dc33d.firebaseapp.com",
   projectId: "chat-dc33d",
   storageBucket: "chat-dc33d.firebasestorage.app",
-  messagingSenderId: "YOUR_SENDER_ID",
+  messagingSenderId: "463651786662",
   appId: "1:463651786662:web:13f496299367af73da8967"
 };
 
